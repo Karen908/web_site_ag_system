@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* inconos de redes sociales  */
+.icons{
+    position: absolute;
+    top: 40%;
+    padding: 0 4%;
+    transform: translateY(-50%);
+}
+.icons i {
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: #0d0e0f;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35 );
+    transition: all 1s ease;
+}
+.icons i:hover{
+    background-color: #00abf0;
+    color: white;
+}
+/* pagina principal */
+.circle{
+    position: absolute;
+    top: 10;
+    left: 8;
+    width: 100%;
+    height: 83%;
+    background: #d7dacb;
+    clip-path: circle(900px at left 100px);
+}
+
+.circle1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    padding-bottom: 40%;
+    background: #d7dacb;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+/* Logo de la empresa  */
+.hero-img {
+    position: absolute;
+    top: 50%; 
+    right: 0;
+    padding-right:5% ;
+    transform: translateY(-50%) translateX(8px); 
+    max-width: 630px; 
+    height: auto;
+  }
+  
