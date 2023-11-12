@@ -5,10 +5,10 @@ import Iconos from './RedesSociales'
 function Section_Principal() {
   return (
     <div>
+      <div className="circle"></div>
       <div>
       <Navar />
       </div>
-      <div className="circle"></div>
       <div className="home" id="Home">
         <div className="home-content mb-40">
           <h1>Bienvenido</h1>

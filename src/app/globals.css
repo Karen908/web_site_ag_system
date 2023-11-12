@@ -97,6 +97,7 @@ html {
     background: #d7dacb;
     clip-path: circle(1000px at left 400px);
 }
+/* Responsive de la pagina principal */
 @media (max-width: 1800px) {
     .header a img {
       width: 450px;
