@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 function iconos() {
  return (
-  <div className='icons'>
+  <div>
+    <div className='icons '>
     <ul >
       <li>
         <Link href="#" legacyBehavior>
@@ -33,6 +34,8 @@ function iconos() {
       </li>
     </ul>
   </div>
+  </div>
+  
  )
 }
 
