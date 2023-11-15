@@ -20,10 +20,10 @@ function Navar() {
     <div className="xl:ml-60 whitespace-nowrap ml-16  ">
       <Navbar.Collapse>
         <Navbar.Link href="#Home" active className='lg:text-2xl md:text-3xl xl:text-2xl mr-3 font-montserrat'>
-          Home
+          Inicio
         </Navbar.Link>
         <Navbar.Link as={Link} href="#Productos" className='lg:text-2xl md:text-3xl xl:text-2xl mr-3'>
-          About
+          Producto
         </Navbar.Link>
         <Navbar.Link href="#Quienes_Somos" className='lg:text-2xl md:text-3xl xl:text-2xl mr-3 '>¿Quienes Somos?</Navbar.Link>
         <Navbar.Link href="#Sobre_Nosotros" className='lg:text-2xl md:text-3xl xl:text-2xl mr-3'>Sobre nosotros</Navbar.Link>

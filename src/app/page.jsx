@@ -1,10 +1,13 @@
 "use client"
 import Section_Principal from "./Components/Section_Home/Section_Principal";
-
+import SectionProducto from "./Components/Producto/Section_Producto";
 export default function Home() {
   return (
     <div >
       <Section_Principal/>
+      <SectionProducto/>
+      
+
     </div>
   );
 }
