@@ -11,12 +11,12 @@ export default function Home() {
 
     <div className="border-t-2  border-blue-500 mb-12">
     <div class="flex flex-col justify-center items-center ">
-  <h1 class="text-4xl text-white font-semibold mb-4 transition-transform duration-500 transform hover:scale-110 mt-8">
+  <h1 class="text-4xl text-white font-semibold font-sans mb-4 transition-transform duration-500 transform hover:scale-110 mt-8">
     ¿Quiénes somos?
   </h1>
   <p class="text-white mb-5">Somos una empresa....</p>
     </div>
-        <div className="flex flex-wrap justify-center">
+        <div  className="flex flex-wrap justify-center">
       <ProfileCards
         imgSrc="/img/Equipo/jerry.png"
         name="Ivan Sepulveda"
@@ -30,8 +30,8 @@ export default function Home() {
         name="Joseph Lopez"
         role="CEO-Director ejecutivo"
         portfolioLink=""
-        githubLink=""
-        linkedinLink=""
+        githubLink="https://github.com/ElGonDo"
+        linkedinLink="https://www.linkedin.com/in/joseph-lopez-henao"
       />
       <ProfileCards
         imgSrc="/img/Equipo/KarenP.jpeg"
@@ -61,7 +61,7 @@ export default function Home() {
     </div>
     <div className="mis flex flex-col sm:flex-row">
       <div >
-        <div className="aspect-w-1 aspect-h-1 w-96 h-96 mx-auto mt-8 md:ml-8 lg:ml-8 xl:ml-8 ">
+        <div className="aspect-w-1 aspect-h-1 w-96 h-96 mx-auto md:mt-36 lg:mt-36 xl:mt-36  md:ml-8 lg:ml-8 xl:ml-8 ">
           <img
             src='/img/Logos_Empresa/logo_cir.png'
             alt="Logo"

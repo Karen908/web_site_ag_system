@@ -80,12 +80,12 @@ html {
   }
   .circle{
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 0;
     width: 100%;
     height: 100%;
     background: #d7dacb;
-    clip-path: circle(1000px at left 100px);
+    clip-path: circle(1090px at left 100px);
 }
 
 .circle1{
@@ -177,7 +177,7 @@ html {
     }
     .circle{
         position: absolute;
-        top: 18%;
+        top: 19%;
         left: 0;
         width: 100%;
         height: 100%;
@@ -209,7 +209,7 @@ html {
     }
     .circle{
         position: absolute;
-        top: 18%;
+        top: 15%;
         left: 0;
         width: 100%;
         height: 100%;
@@ -272,7 +272,7 @@ html {
     }
     .circle{
         position: absolute;
-        top: 16.5%;
+        top: 15%;
         left: 0;
         width: 100%;
         height: 100%;
@@ -298,8 +298,8 @@ html {
     }
     
     .hero-img img {
-      width: 450px;
-      left: 40px;
+      width: 500px;
+      left: 8px;
     }
     
     .icons i {
@@ -310,12 +310,12 @@ html {
   
   .circle{
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 0;
     width: 100%;
     height: 100%;
     background: #d7dacb;
-    clip-path: circle(900px at left 100px);
+    clip-path: circle(800px at left 80px);
 }
 }
   @media (max-width: 1270px) {
@@ -336,7 +336,7 @@ html {
     }
     
     .hero-img img {
-      width: 400px;
+      width: 500px;
       left: 30px;
     }
     
@@ -348,7 +348,7 @@ html {
   
   .circle{
     position: absolute;
-    top: 22%;
+    top: 15%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -375,12 +375,12 @@ html {
     }
     
     .hero-img img {
-      width: 550px;
-      left: 50px;
+      width: 500px;
+      left: 0px;
     }
     
     .icons i {
-      margin: 20px 0;
+      margin: 20px 0 ;
       font-size: 20px;
       padding: 12px;
     }
@@ -392,7 +392,7 @@ html {
     width: 100%;
     height: 100%;
     background: #d7dacb;
-    clip-path: circle(570px at left 500px);
+    clip-path: circle(550px at left 500px);
 }
   }
   @media (max-width: 991px) {
