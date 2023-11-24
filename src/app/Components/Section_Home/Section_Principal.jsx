@@ -1,38 +1,102 @@
 import React from 'react'
 import Navar from './Navar'
-import Iconos from './RedesSociales'
+import RedesSociales from './RedesSociales'
 
 function Section_Principal() {
   return (
     <div>
-            <Navar />
-      <div className="circle "></div>
-      <div >
-      </div>
-      <div className="home" id="Home">
-        <div className="home-content mb-40">
-        <div className="max-w-xl  lg:max-w-xl  mx-auto mt-8">
-          <h1>Bienvenido</h1>
-          <p className="mt-4">
-            <div ></div>
-            Somos una empresa en fase de construcción. <br />
-            Nos especializamos en el desarrollo de aplicaciones web y aplicaciones móviles. <br />
-            Seguimos los procedimientos y controles de nuestro sistema de calidad, <br />
-            buscando la eficacia para garantizar los resultados y satisfacer las necesidades del cliente. <br />
-            Actualmente estamos en la creación de CN_Mecab, producto en el que estamos trabajando y esperamos publicar muy pronto. <br />
-            SOMOS AG SYSTEM INFORMATION...
-          </p>
+    <div>
+      <div className="circle"></div>
+      <div className="relative-container">
+  <div className="absolute-container">
+    <RedesSociales />
+  </div>
+</div>
+      <header className="header">
+        <a href="#" className="logo">
+          <img src="/img/Logos_Empresa/logo.png" data-src="/img/logo.png" alt="" />
+        </a>
+        <ul>
+          <li>
+            <button className="switchDark active" id="switch">
+              <span>
+                <i className='bx bx-sun'></i>
+              </span>
+              <span>
+                <i className='bx bx-moon'></i>
+              </span>
+            </button>
+          </li>
+        </ul>
+        <nav className="navbar">
+          <a href="#Home" className="active">
+            Home
+          </a>
+          <a href="#Producto" className="Productos">
+            Productos
+          </a>
+          <a href="#Quienes_Somos">¿Quiénes Somos?</a>
+          <a href="#Sobre_Nosotros">Sobre nosotros</a>
+          <a href="">Objetivo</a>
+        </nav>
+        <div className="icon">
+          <div className="fas fa-bars" id="menu-btn"></div>
         </div>
-          <div >
-          <Iconos/>
-        </div>
-        </div>
-        <div className="hero-img">
-          <img src="/img/Logos_Empresa/empresaImagotipo.png" data-src="/img/AGNegro.png" alt="" />
-        </div>
-      </div>
+      </header>
+      <section className="home flex justify-between" id="Home">
+  <div className="home-content flex-1">
+    <h1>Bienvenido</h1>
+    <p>
+      Somos una empresa en fase de construcción.
+      <br />
+      Nos especializamos en el desarrollo de aplicaciones web y aplicaciones móviles.
+      <br />
+      Seguimos los procedimientos y controles de nuestro sistema de calidad
+      <br />
+      buscando la eficacia para garantizar los resultados y satisfacer las necesidades
+      <br />
+      del cliente.
+      Actualmente estamos en la creación de CN_Mecab, un producto en el que
+      <br />
+      estamos trabajando y esperamos publicar muy pronto ;).
+      <br />
+      SOMOS AG SYSTEM INFORMATION...
+    </p>
+  </div>
+  <div className="">
+    <img src="/img/Logos_Empresa/empresaImagotipo.png" data-src="/img/AGNegro.png" alt="" className="max-w-full h-auto" />
+  </div>
+</section>
     </div>
+    </div>
+
   )
 }
 
 export default Section_Principal
+{/* // lg:rounded-br-full
+
+//     <div>
+//  <Navar />
+//  <div className='w-full md:w-2/4 xl:w-3/5 rounded-e-full lg:rounded-br-full bg-custom-green h-full pt-40 pb-2 xl:pt-36 xl:pb-0' id="Home">
+//    <div>
+//      <div className="ml-24 max-w-xl lg:max-w-xl mx-auto pl-10">
+//        <h1 className='text-black font-bold font-sans text-5xl mb-10 '>Bienvenido</h1>
+//        <p className="mt-4 text-lg xl:mb-32 ">
+//          Somos una empresa en fase de construcción. <br />
+//          Nos especializamos en el desarrollo de aplicaciones web y aplicaciones móviles. <br />
+//          Seguimos los procedimientos y controles de nuestro sistema de calidad, <br />
+//          buscando la eficacia para garantizar los resultados y satisfacer las necesidades del cliente. <br />
+//          Actualmente estamos en la creación de CN_Mecab, producto en el que estamos trabajando y esperamos publicar muy pronto. <br />
+//          SOMOS AG SYSTEM INFORMATION...
+//        </p>
+//      </div>
+//      <div>
+//        <Iconos/>
+//      </div>
+//    </div>
+//    <div className="hero-img lg:mr-12 lg:mt-36">
+//      <img src="/img/Logos_Empresa/empresaImagotipo.png" data-src="/img/AGNegro.png" alt="" />
+//    </div>
+//  </div>
+// </div> */}

@@ -2,8 +2,8 @@ import React from 'react';
 
 function SectionProducto() {
   return (
-    <section id="Producto" className="flex flex-col items-center justify-center gap-4  text-white">
-      <h2 className="text-5xl text-center mt-20 font-sans">
+    <section id="Producto" className="flex flex-col items-center justify-center gap-4 text-white">
+      <h2 className="text-5xl text-center  font-sans">
         CN_ <span className="text-blue-500 font-bold   ">MECAB</span>
         <div class=""></div>
 
@@ -20,7 +20,7 @@ function SectionProducto() {
 
       <div className="text-center text-lg">
         <h3 className="text-blue-500 font-bold font-sans text-4xl mt-6">¿Qué Es?</h3>
-        <p className="mt-3 ml-44 mr-44 mb-20">
+        <p className="mt-3 mb-20 ml-24 mr-24 lg:ml-40 lg:mr-40 ">
           Aplicación móvil donde se podrá contribuir, explorar, publicar reseñas y opiniones <br/>de sus gustos o preferencias del cine, televisión, literatura y animes. Nos encontramos en <br/>creación pero muy pronto podrás ser parte de la primera red social enfocada en el entretenimiento. <br/> SOMOS CN_MECAB...
         </p>
       </div>

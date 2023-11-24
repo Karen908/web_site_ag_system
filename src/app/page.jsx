@@ -6,7 +6,9 @@ import Info from "./Components/MisionVision/Info";
 export default function Home() {
   return (
     <div >
+      <div>
       <Section_Principal/>
+      </div>
       <SectionProducto/>
 
     <div className="border-t-2  border-blue-500 mb-12">
@@ -20,7 +22,7 @@ export default function Home() {
       <ProfileCards
         imgSrc="/img/Equipo/jerry.png"
         name="Ivan Sepulveda"
-        role="Desarrollador de software"
+        role="Analista-desarollador"
         portfolioLink=""
         githubLink=""
         linkedinLink=""
@@ -59,7 +61,7 @@ export default function Home() {
       />
        </div>
     </div>
-    <div className="mis flex flex-col sm:flex-row">
+    <div className="mis flex flex-col sm:flex-row md:flex-row">
       <div >
         <div className="aspect-w-1 aspect-h-1 w-96 h-96 mx-auto md:mt-36 lg:mt-36 xl:mt-36  md:ml-8 lg:ml-8 xl:ml-8 ">
           <img
