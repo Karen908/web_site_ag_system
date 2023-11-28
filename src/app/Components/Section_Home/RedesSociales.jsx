@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function RedesSociales() {
   return (
-    <div className="flex flex-col items-center mt-72 lg:ml-20">
+    <div className="flex flex-col items-center mt-80 lg:ml-8">
       <Link href="#" legacyBehavior>
         <a className="inline-block custom-green rounded-full p-2 shadow-md text-gray-900 transition duration-1000 ease-in-out transform hover:bg-blue-500 hover:text-white mt-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">

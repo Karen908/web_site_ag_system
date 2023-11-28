@@ -1,17 +1,17 @@
 import React from 'react'
-import Navar from './Navar'
+import Navbar from './Navbar'
 import RedesSociales from './RedesSociales'
 
 function Section_Principal() {
   return (
     <div>
     <div>
+      <div className='w-full h-full md:w-1/2 lg:w-1/3 xl:w-1/4'>
       <div className="circle"></div>
-      <div className="relative-container">
-  <div className="absolute-container">
-    <RedesSociales />
-  </div>
-</div>
+      </div>
+      <div  className="icons" style={{ zIndex: 100 }}>
+      <RedesSociales />      
+      </div>
       <header className="header">
         <a href="#" className="logo">
           <img src="/img/Logos_Empresa/logo.png" data-src="/img/logo.png" alt="" />
@@ -28,17 +28,7 @@ function Section_Principal() {
             </button>
           </li>
         </ul>
-        <nav className="navbar">
-          <a href="#Home" className="active">
-            Home
-          </a>
-          <a href="#Producto" className="Productos">
-            Productos
-          </a>
-          <a href="#Quienes_Somos">¿Quiénes Somos?</a>
-          <a href="#Sobre_Nosotros">Sobre nosotros</a>
-          <a href="">Objetivo</a>
-        </nav>
+        <Navbar/>
         <div className="icon">
           <div className="fas fa-bars" id="menu-btn"></div>
         </div>
