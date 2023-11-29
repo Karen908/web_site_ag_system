@@ -1,8 +1,13 @@
-import React from 'react'
 import Navbar from './Navbar'
 import RedesSociales from './RedesSociales'
+import DarkMod from './DarkMod'
+import React, { useState } from 'react';
+
+
 
 function Section_Principal() {
+  const [darkMode, setDarkMode] = useState(false);
+ 
   return (
     <div>
     <div>
@@ -16,19 +21,8 @@ function Section_Principal() {
         <a href="#" className="logo">
           <img src="/img/Logos_Empresa/logo.png" data-src="/img/logo.png" alt="" />
         </a>
-        <ul>
-          <li>
-            <button className="switchDark active" id="switch">
-              <span>
-                <i className='bx bx-sun'></i>
-              </span>
-              <span>
-                <i className='bx bx-moon'></i>
-              </span>
-            </button>
-          </li>
-        </ul>
         <Navbar/>
+        <DarkMod/>
         <div className="icon">
           <div className="fas fa-bars" id="menu-btn"></div>
         </div>
@@ -53,14 +47,18 @@ function Section_Principal() {
       SOMOS AG SYSTEM INFORMATION...
     </p>
   </div>
-  <div className="">
-    <img src="/img/Logos_Empresa/empresaImagotipo.png" data-src="/img/AGNegro.png" alt="" className="max-w-full h-auto" />
-  </div>
+   {/* Imagen en modo claro */}
+   <img
+  className="dark:hidden h-3/5 mr-8 mt-8	"src="/img/Logos_Empresa/AGNegro.png" alt="Logo en modo claro"
+/>
+      {/* Imagen en modo oscuro */}
+      <img
+        className=" hidden dark:block" src="/img/Logos_Empresa/empresaImagotipo.png" alt="Logo en modo oscuro"
+      />     
 </section>
     </div>
     </div>
-
-  )
+ )
 }
 
 export default Section_Principal
