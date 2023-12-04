@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Navbar } from 'flowbite-react';
 
 
+
 const Header = () => {
   const [activeItem, setActiveItem] = useState('');
 
@@ -12,7 +13,7 @@ const Header = () => {
   };
     return (
 
-      <Navbar expand='lg' className='lg:pr-24  flex items-center fixed-top'>
+      <Navbar expand='lg' className='lg:pr-24  flex items-center fixed-top navbar navbar a:hover navbar a.active'>
       <div className="flex items-center ">
         <Navbar.Brand className='ml-10 lg:ml-20'>
           <img
@@ -28,7 +29,7 @@ const Header = () => {
               href="#Home"
               active={activeItem === 'Home'}
               onClick={() => handleItemClick('Home')}
-              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Home' ? 'text-blue-500' : ''}`}
+              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Home' ? '' : ''}`}
             >
               Home
             </Navbar.Link>
@@ -37,7 +38,7 @@ const Header = () => {
               href="#Objetivos"
               active={activeItem === 'Objetivos'}
               onClick={() => handleItemClick('Objetivos')}
-              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Objetivos' ? 'text-blue-500' : ''}`}
+              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Objetivos' ? '' : ''}`}
             >
               Objetivos
             </Navbar.Link>
@@ -45,7 +46,7 @@ const Header = () => {
               href="#Que_Ofrecemos"
               active={activeItem === 'Que_Ofrecemos'}
               onClick={() => handleItemClick('Que_Ofrecemos')}
-              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Que_Ofrecemos' ? 'text-blue-500' : ''}`}
+              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Que_Ofrecemos' ? '' : ''}`}
             >
               ¿Qué Ofrecemos?
             </Navbar.Link>
