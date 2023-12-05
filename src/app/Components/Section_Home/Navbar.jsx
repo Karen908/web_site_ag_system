@@ -25,7 +25,7 @@ function Navbar() {
         </a>
         <a href="#Quienes_Somos">¿Quiénes Somos?</a>
         <a href="#Sobre_Nosotros">Sobre nosotros</a>
-        <a href="">Objetivo</a>
+        <a href="#Objetivos">Objetivos</a>
       </div>
     </nav>
   );

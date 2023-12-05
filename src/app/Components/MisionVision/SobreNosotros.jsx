@@ -13,7 +13,7 @@ function SobreNosotros({ title, description, svg }) {
             <h1 className="text-2xl font-bold font-sans">{title}</h1>
           </div>
         </div>
-        <div className="text-lg font-semibold leading-7 text-gray-900  mt-4">
+        <div className=" font-semibold leading-7 text-gray-900  mt-4">
           <p>{description}</p>
         </div>
       </div>

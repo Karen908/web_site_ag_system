@@ -3,7 +3,7 @@ import Section_Principal from "./Components/Section_Home/Section_Principal";
 import SectionProducto from "./Components/Producto/Section_Producto";
 import ProfileCards from "./Components/Nosotros/ProfileCards";
 import Info from "./Components/MisionVision/Info";
-
+import Objetivos from "./Components/Objetivo/Objetivos";
 function Home() {
   
   return (
@@ -11,15 +11,13 @@ function Home() {
       <body className="bg-gray-100 dark:bg-black">
       <div>
       <Section_Principal/>
-      </div>
       <SectionProducto/>
-
-    <div className="border-t-2 border-blue-800 dark:border-blue-500 mb-12">
+      </div>
+    <div className=" border-t-2 border-blue-800 dark:border-blue-500 mb-12">
     <div class="flex flex-col justify-center items-center ">
   <h1 class="text-4xl text-black dark:text-white font-bold font-sans mb-4 transition-transform duration-500 transform hover:scale-110 mt-8">
-    ¿Quiénes somos?
+    Nuestro equipo
   </h1>
-  <p class="text-black dark:text-white mb-5">Somos una empresa....</p>
     </div>
         <div  className="flex flex-wrap justify-center">
       <ProfileCards
@@ -77,6 +75,14 @@ function Home() {
       <div className="mt-8 sm:ml-8 md:ml-12 lg:ml:12 lx:ml:12">
         <Info />
       </div>
+    </div>
+    <div>
+    <div className="flex-1 flex items-center justify-center">
+    <h1 class="text-4xl text-black dark:text-white font-bold font-sans mb-4 transition-transform duration-500 transform hover:scale-110 mt-8">
+    Objetivos especificos 
+  </h1>
+      </div>
+    <Objetivos/>
     </div>
       </body>
     </div>

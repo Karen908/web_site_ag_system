@@ -6,7 +6,7 @@ const ProfileCard = ({ imgSrc, name, role, portfolioLink, githubLink, linkedinLi
   };
 
   return (
-    <div id="Quienes_Somos" className='ml-6 p-3'>
+    <div id="Quienes_Somos" className='ml-4 p-3'>
       <div className="relative flex flex-col text-gray-700 bg-black dark:bg-white shadow-md w-64 h-96 rounded-xl bg-clip-border overflow-hidden transform transition-transform ease-in-out hover:scale-105 group">
         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-xg h-60 rounded-xl bg-clip-border transform transition-transform ease-in-out hover:scale-110">
           <img
