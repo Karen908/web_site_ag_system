@@ -1,10 +1,11 @@
-"use client"
-import { Button } from 'flowbite-react';
+
+const Page = () => {
+    return (
+        <div>
 
 
+        </div>
+    );
+};
 
-export default function Home() {
-  return (
-    <div></div>
-  );
-}
+export default Page;

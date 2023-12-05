@@ -1,5 +1,5 @@
-import Header from "./Components/Home/Navbar";
-import Contenido from "./Components/Header/Contenido/Contenido";
+import Header from "./Components/Header/Navbar";
+import Contenido from "./Components/Contenido/Contenido";
 import DarkMod from "./Components/Home/DarkMode";
 
 const page = () => {

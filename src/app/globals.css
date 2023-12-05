@@ -30,3 +30,60 @@ header .navbar a {
   background-color: #2b9dfa;
   clip-path: circle(620px at right 830px);
 }
+
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 620px;
+}
+.content .textBox p{
+    color: #333;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.2em;
+}
+.content .textBox h2 span{
+    color:rgb(11, 58, 201);
+    font-size: 1em;
+    font-weight: 750;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #121f47;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.content .textBox a:hover{
+    background: green;
+    color: #fff;
+    
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgBox img{
+    max-width: 540px;
+}
