@@ -25,8 +25,8 @@ function Home() {
         name="Ivan Sepulveda"
         role="Analista-desarollador"
         portfolioLink=""
-        githubLink=""
-        linkedinLink=""
+        githubLink="https://github.com/sepu2"
+        linkedinLink="https://www.linkedin.com/in/santsp15"
       />
       <ProfileCards
         imgSrc="/img/Equipo/joseph.png"

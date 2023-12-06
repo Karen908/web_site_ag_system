@@ -3,39 +3,13 @@
 @tailwind utilities;
 /* pagina principal */
 
-:root {
---bg-color: #d7dacb;
---second-bg-color: #0d0e0f;
---main-color: #00abf0;
---tercer-color: #d7dacb;
-}
 
-#menu-btn{
-display: none;
-}
 .home{
   position: relative;
   height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0 10%;
-  justify-content: space-between;
-  transform: translateX(8px);
-}
-.home-content h1{
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-.home-content h3{
-  font-size: 32px;
-  font-weight: 700;
-  color: #00abf0;
-}
-.home-content p{
-  font-size: 16px;
-  margin: 20x 0 40px;
 }
 
 .circle{
@@ -45,88 +19,26 @@ display: none;
   width: 100%;
   height: 150%;
   background: #d7dacb;
-  clip-path: circle(1000px at left 100px);
+  clip-path: circle(86% at left 10%);
 }
 
-.circle1{
-  position: absolute;
-  top: 1000px;
-  left: 500px;
-  width: 40%;
-  height: 100%;
-  background: #d7dacb;
-  clip-path: circle(1000px at left 400px);}
-
-  /* //barra de navegacion  */
-  .header{
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 1000;
- 
-}
-.header.scrolled {
-    background: #d7dacb;
-  }
-.header.dark {
-    background: #d7dacb;
-}
-  
-.header .icon div{
-    color: #fff;
-    cursor: pointer;
-    font-size: 2rem;
-    margin-left: 2rem;
-}
-.header .icon div:hover{
-    color: #00abf0;
-}
-
-
-.header .navbar a {
-    
-    margin: 0 1rem;
-    font-size: 18px;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: all .55s ease;
-    border-bottom: 2px solid transparent;
-}
-.navbar a:hover,
-.navbar a.active{
-    color: #00abf0;
-    border-bottom: .1rem solid #ededed;
-}
-#menu-icon{
-    color: #ededed;
-    font-size: 30px;
-    z-index: 1001;
-    cursor: pointer;
+ @media only screen and (max-width: 770px) {
+  .circle {
     display: none;
-}
-.header a img{
-    width: 300px;
-    height: 75px;
-    .icons{
-      position: absolute;
-      top: 50%;
-      padding: 0 4%;
-      transform: translateY(-50%);
-      
-  }     
-}
+  }
+ 
+  .home {
+    flex-direction: column;
+  }
+  .Fondo{
+    background: linear-gradient(to bottom, #d7dacb 68%, transparent 50%); 
+  }
+ }
 
 /* para los items */
 .icons{
   position: absolute;
-  top: 25%;
-  padding: 0 4%;
+  top: 40%;
   transform: translateY(-50%)}
 
 /* producto */
