@@ -2,9 +2,8 @@ import React from "react";
 import DarkMod from "./DarkMod";
 import {
   Navbar,
-  MobileNav,
+  Collapse,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
  
@@ -119,9 +118,9 @@ export function Barra() {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           {navList}
-        </MobileNav>
+        </Collapse>
       </Navbar>
     </div>
   );

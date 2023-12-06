@@ -1,10 +1,11 @@
 import React from 'react';
-import Card from './Card';  // Ajusta la ruta según la ubicación de tu componente Card
+import Card from './Card';  
 
 function Objetivos() {
   return (
     <div id="Objetivos" className="flex flex-col md:flex-row">
       <div className="flex-1 flex flex-col mt-8 order-2 md:order-1">
+
         {/* Tarjetas superiores */}
         <div className="flex">
           <div className="w-full mb-4 ml-4 ">
@@ -31,7 +32,7 @@ function Objetivos() {
           </div>
         </div>
 
-        {/* Tarjetas inferiores */}
+         {/* Tarjetas inferiores  */}
         <div className="flex">
           <div className="w-full  ml-4">
           <Card
