@@ -24,7 +24,7 @@ export function Barra() {
         variant="small"
         className="p-1"
       >
-        <a href="#Home" className="flex items-center text-black dark:text-white font-semibold text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
+        <a href="#Home" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
           Home
         </a>
       </Typography>
@@ -33,7 +33,7 @@ export function Barra() {
         variant="small"
         className="p-1"
       >
-        <a href="#Producto" className="flex items-center text-black dark:text-white font-semibold text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
+        <a href="#Producto" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
           Producto
         </a>
       </Typography>
@@ -42,7 +42,7 @@ export function Barra() {
         variant="small"
         className="p-1 "
       >
-        <a href="#Quienes_Somos" className="flex items-center text-black dark:text-white font-semibold text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
+        <a href="#Quienes_Somos" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
           ¿Quienes somos?
         </a>
       </Typography>
@@ -51,7 +51,7 @@ export function Barra() {
         variant="small"
         className="p-1 "
       >
-        <a href="#Sobre_Nosotros" className="flex items-center text-black dark:text-white font-semibold text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
+        <a href="#Sobre_Nosotros" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
           Nosotros
         </a>
       </Typography>
@@ -60,7 +60,7 @@ export function Barra() {
         variant="small"
         className="p-1 "
       >
-        <a href="#Objetivos" className="flex items-center text-black dark:text-white font-semibold text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
+        <a href="#Objetivos" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
           Objetivos
         </a>
       </Typography>

@@ -15,11 +15,11 @@ function Section_Principal() {
         <section className="inicio flex justify-between pl-10 " id="Home">
           <div className="mt-28 ml-8 md:mb-12 md:mt-1 lg:mt-1 md:ml-14 lg:ml-16 xl:ml-20">
             <h1 className='font-bold mb-4 text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>Bienvenido</h1>
-            <p className='text-justify lg:text-base xl:text-lg text-black font-semibold w-full md:w-9/12 pr-16 lg:w-11/12 '>
+            <p className='text-justify lg:text-base xl:text-lg text-black font-medium w-full md:w-9/12 pr-16 lg:w-11/12 '>
               Somos una empresa en fase de construcción, nos especializamos en el desarrollo de aplicaciones web y aplicaciones móviles, seguimos los procedimientos y controles de nuestro sistema de calidad buscando la eficacia para garantizar los resultados y satisfacer las necesidades del cliente.
             </p>
             <br />
-            <p className='text-justify lg:text-base xl:text-lg text-black font-semibold w-full pr-16 md:w-2/3 lg:w-11/12 '>
+            <p className='text-justify lg:text-base xl:text-lg text-black font-medium w-full pr-16 md:w-2/3 lg:w-11/12 '>
               Actualmente estamos en la creación de CN_Mecab, un producto en el que estamos trabajando y esperamos publicar muy pronto ;).
               <br />
               SOMOS AG SYSTEM INFORMATION...

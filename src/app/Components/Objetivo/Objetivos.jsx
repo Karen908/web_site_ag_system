@@ -16,7 +16,7 @@ function Objetivos() {
               </svg>}
               title="Objetivo 1"
               number={1}
-              description="Descripción del objetivo 1."
+              description=""
             />
           </div>
           <div className="w-full  mb-4 mr-4">
@@ -27,7 +27,7 @@ function Objetivos() {
               </svg>}
               title="Objetivo 2"
               number={1}
-              description="Descripción del objetivo 1."
+              description=""
             />
           </div>
         </div>
@@ -42,7 +42,7 @@ function Objetivos() {
               </svg>}
               title="Objetivos 3"
               number={1}
-              description="Descripción del objetivo 1."
+              description=""
             />
           </div>
           <div className="w-full  mb-4 mr-4">
@@ -53,7 +53,7 @@ function Objetivos() {
               </svg>}
               title="Objetivos 4"
               number={1}
-              description="Descripción del objetivo 1."
+              description="."
             />
           </div>
         </div>
