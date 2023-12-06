@@ -21,17 +21,6 @@ header .navbar a {
   border-bottom: .1rem solid #ededed;
 }
 
-.circle{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #2b9dfa;
-  clip-path: circle(620px at right 830px);
-}
-
-
 .content{
     position: relative;
     width: 100%;
@@ -78,12 +67,94 @@ header .navbar a {
     
 }
 .content .imgBox{
-    width: 600px;
+    width: 200px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
+    padding-right: 30px;
+    margin-top: 30px;
 }
 .content .imgBox img{
-    max-width: 540px;
+    max-width: 400px;
+    position: absolute;
+    transform: translate(8%, 5%);
+    top: -1150%;
+    left: 65%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.thumb{
+    position: relative;
+    left:50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 72px;
+
+    
+
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    padding: 0 2%; 
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li {
+    list-style: none;
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #0d0e0f;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35 );
+    transition: all 1s ease;
+}
+.sci li:hover{
+    background-color: red;
+}
+.sci li a{
+    display: inline-block;
+    margin: 10px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: #2b9dfa;
+  clip-path: circle(620px at right 830px);
 }
