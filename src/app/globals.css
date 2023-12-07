@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* pagina principal */
 
 
@@ -22,9 +23,12 @@ header .navbar a {
 }
 
 .content{
+    max-width: 100%;
+    padding: 0 10px;
     position: relative;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,28 +71,33 @@ header .navbar a {
     
 }
 .content .imgBox{
-    width: 200px;
+    max-width: 500px;
+    width: 600px;
     display: flex;
     justify-content: flex-end;
-    padding-right: 30px;
-    margin-top: 30px;
-}
-.content .imgBox img{
-    max-width: 400px;
-    position: absolute;
-    transform: translate(8%, 5%);
-    top: -1150%;
-    left: 65%;
-    overflow: hidden;
-    display: flex;
+    padding-right: 35px;
+    margin-top: 42px;
     align-items: center;
     justify-content: center;
-
-    
+}
+.content .imgBox img{
+    max-width: 100%;
+    height: auto;
+    max-width: 430px;
+    max-height: 580px;
+    position: absolute;
+    transform: translate(1.2em, 2%);
+    top: -1050%;
+    left: 68%;
+    overflow: hidden;
+    display: flex;
 
 }
 
+
+
 .thumb{
+    max-width: 50px;
     position: relative;
     left:50%;
     bottom: 20px;
@@ -111,12 +120,13 @@ header .navbar a {
     transform: translateY(-15px);
 }
 .thumb li img{
-    max-width: 72px;
+    max-width: 70px;
 
     
 
 }
 .sci{
+    right: 10px;
     position: absolute;
     top: 50%;
     right: -10px;
@@ -156,5 +166,23 @@ header .navbar a {
   width: 100%;
   height: 100%;
   background-color: #2b9dfa;
-  clip-path: circle(620px at right 830px);
+  clip-path: circle(700px at right 800px);
+}
+
+@media screen and (min-width: 768px) {
+  /* Aplica estilos específicos para pantallas más grandes (ajusta según sea necesario) */
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .content .imgBox {
+    margin-top: -1110px; /* Ajusta según sea necesario */
+    top: -1050%;
+
+  }
+
+  .thumb li img {
+    max-width: 70px; /* Puedes ajustar el tamaño de las miniaturas para pantallas más grandes */
+  }
 }
