@@ -29,14 +29,14 @@ function Section_Principal() {
             {/* Imagen en modo claro */}
             <img
               className="dark:hidden"
-              src="/img/Logos_Empresa/AGNegro.png"
+              src="/img/Pagina_web/Logos_Empresa/AGNegro.png"
               alt="Logo en modo claro"
             />
 
             {/* Imagen en modo oscuro */}
             <img
               className="hidden dark:block mr-8 object-contain"
-              src="/img/Logos_Empresa/empresaImagotipo.png"
+              src="/img/Pagina_web/Logos_Empresa/empresaImagotipo.png"
               alt="Logo en modo oscuro"
             />
           </div>

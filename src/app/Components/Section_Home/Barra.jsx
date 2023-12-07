@@ -72,7 +72,7 @@ export function Barra() {
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-6 py-2 lg:px-8 lg:py-4 dark:bg-slate-400 lg:bg-transparent lg:border-transparent lg:shadow-none mt-4">
         <div className="flex items-center justify-between text-blue-gray-900 ">
         <a className="w-48 md:w-56 md:ml-20 lg:w-72 xl:w-80 mt-8 ml-10 object-contain">
-          <img src="/img/Logos_Empresa/logo.png" data-src="/img/logo.png" alt="" />
+          <img src="/img/Pagina_web/Logos_Empresa/logo.png" data-src="/img/logo.png" alt="" />
         </a>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>

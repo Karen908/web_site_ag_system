@@ -5,7 +5,7 @@ function Info_Equipo() {
     <div>
           <div  className="flex flex-wrap justify-center">
       <ProfileCards
-        imgSrc="/img/Equipo/jerry.png"
+        imgSrc="/img/Pagina_web/Equipo/jerry.png"
         name="Ivan Sepulveda"
         role="Analista-desarollador"
         portfolioLink=""
@@ -13,7 +13,7 @@ function Info_Equipo() {
         linkedinLink="https://www.linkedin.com/in/santsp15"
       />
       <ProfileCards
-        imgSrc="/img/Equipo/joseph.png"
+        imgSrc="/img/Pagina_web/Equipo/joseph.png"
         name="Joseph Lopez"
         role="CEO-Director ejecutivo"
         portfolioLink=""
@@ -21,7 +21,7 @@ function Info_Equipo() {
         linkedinLink="https://www.linkedin.com/in/joseph-lopez-henao"
       />
       <ProfileCards
-        imgSrc="/img/Equipo/KarenP.jpeg"
+        imgSrc="/img/Pagina_web/Equipo/KarenP.jpeg"
         name="Karen Perez"
         role="Gerente de producto"
         portfolioLink=""
@@ -29,7 +29,7 @@ function Info_Equipo() {
         linkedinLink="https://www.linkedin.com/in/karenperez135/"
       />
       <ProfileCards
-        imgSrc="/img/Equipo/andres.png"
+        imgSrc="/img/Pagina_web/Equipo/andres.png"
         name="Andres Matuk"
         role="Director de proyecto"
         portfolioLink=""
@@ -37,7 +37,7 @@ function Info_Equipo() {
         linkedinLink=""
       />
       <ProfileCards
-        imgSrc="/img/Equipo/armando1.png"
+        imgSrc="/img/Pagina_web/Equipo/armando1.png"
         name="Armando Torrez"
         role="Director de desarrollo"
         portfolioLink=""

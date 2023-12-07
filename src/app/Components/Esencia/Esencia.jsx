@@ -58,8 +58,8 @@ function Esencia() {
       <div className="flex-1 flex items-center justify-center p-8">
         <div className="front-content1">
           <img
-            src="/img/Equipo/Equipo.jpeg"
-            alt="Logo"
+            src="/img/Pagina_web/Equipo/Equipo.jpeg"
+            alt="Equipo"
             className="object-cover w-full h-full"
           />
         </div>

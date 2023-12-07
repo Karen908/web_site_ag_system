@@ -6,7 +6,7 @@ function SectionProducto() {
       id="Producto"
       className="flex flex-col items-center justify-center gap-4 text-white font-semibold relative"
       style={{
-        backgroundImage: "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/Producto/producto.jpg')",
+        backgroundImage: "linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/img/Pagina_web/Producto/producto.jpg')",
         backgroundSize: "cover",  
         backgroundPosition: "center",  
       }}
@@ -19,7 +19,7 @@ function SectionProducto() {
         <div className='loader'></div>
         <div className='content relative w-60 h-60 border-8 border-blue-500 rounded-full flex items-center justify-center'>
           <a href="indexCN.html">
-            <img src="/img/Logos_Empresa/Cn_azul.png" alt="" />
+            <img src="/img/Pagina_web/Logos_Empresa/Cn_azul.png" alt="Producto" />
           </a>
         </div>
       </div>

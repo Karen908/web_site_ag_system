@@ -25,8 +25,8 @@ function Home() {
         <div>
           <div className="aspect-w-1 aspect-h-1 w-96 h-96 mx-auto md:mt-36 lg:mt-36 xl:mt-36 md:ml-8 lg:ml-8 xl:ml-8">
             <img
-              src="/img/Logos_Empresa/logo_cir.png"
-              alt="Logo"
+              src="/img/Pagina_web/Logos_Empresa/logo_cir.png"
+              alt="Logo circular"
               className="object-cover w-full h-full"
               loading="lazy"
             />
