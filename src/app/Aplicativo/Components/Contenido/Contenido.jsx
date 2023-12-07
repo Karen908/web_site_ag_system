@@ -7,7 +7,7 @@ const Contenido = () => {
     return (
             <div>
         <section className="flex justify-center items-center" id="Home">
-        <div class="circle">
+        <div className="circle">
         </div>
         <div className="content">
       <div className="textBox mt-20 ml-20">
