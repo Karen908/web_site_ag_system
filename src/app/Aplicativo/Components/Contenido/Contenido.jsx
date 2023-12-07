@@ -6,12 +6,11 @@ const Contenido = () => {
     
     return (
             <div>
-
-        <div className="circle">
+        <section className="flex justify-center items-center" id="Home">
+        <div class="circle">
         </div>
-        <section className="flex ustify-center items-center" id="Home">
         <div className="content">
-      <div className="textBox mt-19 ml-20">
+      <div className="textBox mt-20 ml-20">
         <h2 className="text-4xl font-weight-500 leading-10 mb-6">
           CN Mecab
           <br />

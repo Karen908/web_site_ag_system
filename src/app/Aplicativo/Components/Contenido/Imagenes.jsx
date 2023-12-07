@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 
 
+
 const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
     return (
       <li onClick={() => onClickHandler(imgSrc)}>
@@ -15,7 +16,7 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   
   const SocialIcons = () => {
     return (
-      <ul className="sci mt-10 ml">
+      <ul className="sci">
         <li href="#">
        <FaFacebookF />
         </li>
@@ -44,7 +45,7 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
       <div>
           <div className="content">
         <div className="imgBox">
-          <img src={currentImage} className="CnMecab"  />
+          <img src={currentImage} className="CnMecab imgt" />
         </div>
         </div>
     
