@@ -5,7 +5,6 @@ import { FaXTwitter } from "react-icons/fa6";
 
 
 
-
 const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
     return (
       <li onClick={() => onClickHandler(imgSrc)}>
@@ -16,7 +15,7 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   
   const SocialIcons = () => {
     return (
-      <ul className="sci">
+      <ul className="sci mt-10 ml">
         <li href="#">
        <FaFacebookF />
         </li>
@@ -43,14 +42,14 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   
     return (
       <div>
-          <div className="content">
+          <div class="content">
         <div className="imgBox">
-          <img src={currentImage} className="CnMecab imgt" />
+          <img src={currentImage} className="CnMecab"  />
         </div>
         </div>
     
         <ul className="thumb">
-          <SliderThumbnail imgSrc="/img/Cn_mecab/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="public/img/Cn_mecab/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
           <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen1.jpg" onClickHandler={imgSlider} className="imagenes" />
           <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen2.jpg" onClickHandler={imgSlider} className="imagenes" />
           <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen3.jpg" onClickHandler={imgSlider} className="imagenes" />
