@@ -33,7 +33,7 @@ function Info_Equipo() {
         name="Andres Matuk"
         role="Director de proyecto"
         portfolioLink=""
-        githubLink=""
+        githubLink="https://github.com/AndresMatuk "
         linkedinLink=""
       />
       <ProfileCards
@@ -41,8 +41,8 @@ function Info_Equipo() {
         name="Armando Torrez"
         role="Director de desarrollo"
         portfolioLink=""
-        githubLink=""
-        linkedinLink=""
+        githubLink="https://github.com/Armandopru"
+        linkedinLink="https://www.linkedin.com/in/armando-jose-torres-molina-945186297/"
       />
        </div>
     </div>

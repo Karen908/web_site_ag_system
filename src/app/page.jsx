@@ -3,7 +3,8 @@ import Section_Principal from "./Components/Section_Home/Section_Principal";
 import Info_Equipo from "./Components/Nosotros/Info_Equipo";
 import SectionProducto from "./Components/Producto/Section_Producto";
 import Info from "./Components/MisionVision/Info";
-import Objetivos from "./Components/Objetivo/Objetivos";
+import Esencia from "./Components/Esencia/Esencia";
+import Footer from "./Components/Esencia/Footer";
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
       <div className="border-t-2 border-blue-800 dark:border-blue-500 mb-12">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl text-black dark:text-white font-bold font-sans mb-4 transition-transform duration-500 transform hover:scale-110 mt-8">
-            Nuestro equipo
+          Equipo de desarrollo
           </h1>
           <Info_Equipo />
         </div>
@@ -36,13 +37,14 @@ function Home() {
         </div>
       </div>
       <div>
-        <div className="flex-1 flex items-center justify-center">
-          <h1 className="text-4xl text-black dark:text-white font-bold font-sans mb-4 transition-transform duration-500 transform hover:scale-110 mt-8">
-            Objetivos especificos
+        <div className="flex-1 flex  justify-center shadow-lg pb-3 border-b-2  dark:border-blue-500">
+          <h1 className="text-4xl text-black dark:text-white font-bold font-sans  transition-transform duration-500 transform hover:scale-110 mt-8">
+          La esencia de A.G System Information
           </h1>
         </div>
-        <Objetivos />
+        <Esencia/>
       </div>
+      <Footer/>
     </div>
   );
 }

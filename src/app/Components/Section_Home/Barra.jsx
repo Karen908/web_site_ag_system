@@ -60,8 +60,8 @@ export function Barra() {
         variant="small"
         className="p-1 "
       >
-        <a href="#Objetivos" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
-          Objetivos
+        <a href="#Esencia" className="flex items-center text-black dark:text-white font-medium text-sm md:text-base lg:text-lg xl:text-2xl hover:text-cyan-600">
+          Esencia
         </a>
       </Typography>
     </ul>
