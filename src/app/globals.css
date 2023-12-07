@@ -16,6 +16,7 @@
   width: 100%;
   height: 150%;
   background: #d7dacb;
+  clip-path: circle(86% at left 10%);
 }
  @media only screen and (max-width: 770px) {
   .circulo {
