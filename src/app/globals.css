@@ -1,6 +1,156 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* pagina principal */
+.inicio{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.circulo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background: #d7dacb;
+  clip-path: circle(86% at left 10%);
+}
+ @media only screen and (max-width: 770px) {
+  .circulo {
+    display: none;
+  }
+ 
+  .inicio {
+    flex-direction: column;
+  }
+  .Fondo{
+    background: linear-gradient(to bottom, #d7dacb 68%, transparent 50%); 
+  }
+  .Logo{
+    position: absolute;
+  }
+ }
+
+/* para los items */
+.icons{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%)}
+
+/* producto */
+.loader-container {
+  position: relative;
+ }
+ .loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 8px solid rgb(0,0,0,0.11);
+  border-radius: 50%;
+  border-top-color: rgb(52, 152, 219);
+  border-bottom-color: rgb(52, 152, 219);
+  animation: loader1776 3s linear infinite;
+  transform: rotate(0deg);
+ transition: transform 3s linear infinite;
+ }
+ .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+  @keyframes loader1776 {
+    to {
+      transform: rotate(360deg);
+    }
+   }
+
+   /* mision, vision, objetivo */
+   .mis{
+    padding: 40px 20px 10px 20px;
+    display:flex;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='949' height='949' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='88' y1='88' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%23838383'/%3E%3Cstop offset='1' stop-color='%23dadada'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='75' y1='76' x2='168' y2='160'%3E%3Cstop offset='0' stop-color='%23848484'/%3E%3Cstop offset='0.09' stop-color='%23a8a8a8'/%3E%3Cstop offset='0.18' stop-color='%23c1c1c1'/%3E%3Cstop offset='0.31' stop-color='%23d4d4d4'/%3E%3Cstop offset='0.44' stop-color='%23e2e2e2'/%3E%3Cstop offset='0.59' stop-color='%23ededed'/%3E%3Cstop offset='0.75' stop-color='%23f5f5f5'/%3E%3Cstop offset='1' stop-color='%23FBFBFB'/%3E%3C/linearGradient%3E%3Cfilter id='c' x='0' y='0' width='200%25' height='200%25'%3E%3CfeGaussianBlur in='SourceGraphic' stdDeviation='12' /%3E%3C/filter%3E%3C/defs%3E%3Cpolygon fill='url(%23a)' points='0 174 0 0 174 0'/%3E%3Cpath fill='%23000' fill-opacity='0.66' filter='url(%23c)' d='M121.8 174C59.2 153.1 0 174 0 174s63.5-73.8 87-94c24.4-20.9 87-80 87-80S107.9 104.4 121.8 174z'/%3E%3Cpath fill='url(%23b)' d='M142.7 142.7C59.2 142.7 0 174 0 174s42-66.3 74.9-99.3S174 0 174 0S142.7 62.6 142.7 142.7z'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 1250px;
+}
+
+/* Carta de objetivos especificos  */
+.card-O {
+  overflow: visible;
+  width: 100%;
+  height: 220px;
+}
+.content-O {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+  box-shadow: 0px 0px 10px 1px #000000ee;
+  border-radius: 5px;
+}
+.front, .back-O {
+  background-color: #151515;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.back-O {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.back-O::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 180px;
+  height: 180%;
+  background: linear-gradient(90deg, transparent, rgb(52, 152, 219), rgb(52, 152, 219), rgb(52, 152, 219), rgb(52, 152, 219), transparent);
+  animation: rotation_481 5000ms infinite linear;
+}
+.back-content-O {
+  position: absolute;
+  width: 98%;
+  height: 98%;
+  background-color: #151515;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card-O:hover .content-O {
+  transform: rotateY(180deg);
+}
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
+}
+.front {
+  transform: rotateY(180deg);
+  color: white;
+}
+
 
 /* pagina principal */
 
