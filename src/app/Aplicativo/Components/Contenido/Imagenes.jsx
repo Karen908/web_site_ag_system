@@ -30,7 +30,7 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   };
   
   const Contenido = () => {
-    const [currentImage, setCurrentImage] = useState('/img/Logos/LogoCN.png');
+    const [currentImage, setCurrentImage] = useState('/img/Cn_mecab/Logos/LogoCN.png');
   
     const imgSlider = (anything) => {
       setCurrentImage(anything);
@@ -42,17 +42,17 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   
     return (
       <div>
-          <div class="content">
+          <div className="content">
         <div className="imgBox">
           <img src={currentImage} className="CnMecab"  />
         </div>
         </div>
     
         <ul className="thumb">
-          <SliderThumbnail imgSrc="/img/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
-          <SliderThumbnail imgSrc="/img/App/imagen1.jpg" onClickHandler={imgSlider} className="imagenes" />
-          <SliderThumbnail imgSrc="/img/App/imagen2.jpg" onClickHandler={imgSlider} className="imagenes" />
-          <SliderThumbnail imgSrc="/img/App/imagen3.jpg" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen1.jpg" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen2.jpg" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen3.jpg" onClickHandler={imgSlider} className="imagenes" />
         </ul>
        
         <SocialIcons />

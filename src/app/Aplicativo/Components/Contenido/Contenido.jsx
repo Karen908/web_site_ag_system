@@ -7,7 +7,7 @@ const Contenido = () => {
     return (
             <div>
 
-        <div class="circle">
+        <div className="circle">
         </div>
         <section className="flex ustify-center items-center" id="Home">
         <div className="content">
@@ -26,7 +26,7 @@ const Contenido = () => {
           ser: géneros cinematográficos, géneros literarios, productoras,
           directores y diferentes temas relacionados.
         </p>
-        <a href="img/app-release.apk" class="descarga">Descargar</a>  
+        <a href="img/app-release.apk" className="descarga">Descargar</a>  
     
       </div>
     </div>
