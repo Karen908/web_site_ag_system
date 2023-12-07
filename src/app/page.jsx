@@ -38,7 +38,7 @@ function Home() {
       </div>
       <div>
         <div className="flex-1 flex  justify-center shadow-lg pb-3 border-b-2  dark:border-blue-500">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black dark:text-white font-bold font-sans  transition-transform duration-500 transform hover:scale-110 mt-8">
+          <h1 className="text-2xl md:text-3xl lg:text-3xl xl:text-4xl text-black dark:text-white font-bold font-sans  transition-transform duration-500 transform hover:scale-110 mt-8">
           La esencia de A.G System Information
           </h1>
         </div>
