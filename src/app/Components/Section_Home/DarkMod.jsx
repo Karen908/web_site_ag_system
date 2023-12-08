@@ -21,7 +21,7 @@ function DarkMod() {
     return (
       <div>
       <button
-              className={`top-5 right-0 w-12 h-6  rounded-2xl bg-white transition duration-300 focus:outline-none shadow-lg shadow-amber-400 dark:shadow-cyan-500${
+              className={`top-5 right-0 w-12 h-6 ml-4 rounded-2xl bg-white transition duration-300 focus:outline-none shadow-lg shadow-amber-400 dark:shadow-cyan-500${
                 isChangingTheme ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleThemeSwitch}

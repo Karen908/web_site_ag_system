@@ -223,17 +223,14 @@ header .navbar a {
     justify-content: flex-end;
     padding-right: 35px;
     margin-top: 42px;
-    align-items: center;
-    justify-content: center;
 }
 .content .imgBox img{
     max-width: 100%;
     height: auto;
     max-width: 430px;
-    max-height: 580px;
+    max-height: 570px;
     position: absolute;
-    transform: translate(1.2em, 2%);
-    top: -1050%;
+    transform: translate(1.2em, 28%);
     left: 68%;
     overflow: hidden;
     display: flex;
@@ -241,12 +238,11 @@ header .navbar a {
 }
 
 
-
 .thumb{
     max-width: 50px;
     position: relative;
     left:50%;
-    bottom: 20px;
+    bottom: 8px;
     transform: translateX(-50%);
     display: flex;
     align-items: center; 
@@ -312,7 +308,7 @@ header .navbar a {
   width: 100%;
   height: 100%;
   background-color: #2b9dfa;
-  clip-path: circle(700px at right 800px);
+  clip-path: circle(670px at right 820px);
 }
 
 @media screen and (min-width: 768px) {
@@ -320,15 +316,20 @@ header .navbar a {
   .content {
     flex-direction: row;
     justify-content: space-between;
+   
   }
 
   .content .imgBox {
-    margin-top: -1110px; /* Ajusta según sea necesario */
-    top: -1050%;
+    margin-top: -1000px; /* Ajusta según sea necesario */
+    top: 1000%;
+
+
 
   }
 
   .thumb li img {
     max-width: 70px; /* Puedes ajustar el tamaño de las miniaturas para pantallas más grandes */
+    justify-content: center;
+    align-items: center;
   }
 }
