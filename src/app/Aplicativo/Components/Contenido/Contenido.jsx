@@ -7,16 +7,16 @@ const Contenido = () => {
     return (
             <div>
         <section className="flex justify-center items-center" id="Home">
-        <div className="circle">
+        <div className="circle bg-sky-600 dark:bg-sky-500">
         </div>
         <div className="content">
-      <div className="textBox mt-20 ml-20">
+      <div className="textBox font-medium text-gray-800 dark:text-white mt-20 ml-20">
         <h2 className="text-4xl font-weight-500 leading-10 mb-6">
           CN Mecab
           <br />
-          <span className="text-2xl font-medium text-blue-800">APP Movil</span>
+          <span className="text-2xl font-medium text-blue-800 dark:text-sky-500">APP Movil</span>
         </h2>
-        <p className="text-2xl font-medium text-gray-800 dark:text-white mt-2">
+        <p className="text-2xl font-medium dark:text-white text-gray-800  mt-2">
           Es una plataforma/red social hecha para el público aficionado o
           interesado en el mundo del cine, la televisión y la literatura, en la
           cual puedas observar, opinar, compartir, guardar y publicar reseñas

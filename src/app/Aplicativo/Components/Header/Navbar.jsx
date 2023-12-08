@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import DarkMod from '@/app/Components/Section_Home/DarkMod';
 import Link from 'next/link';
 import { Navbar } from 'flowbite-react';
 
@@ -22,14 +23,14 @@ const Header = () => {
             alt="Logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle className="lg:hidden" />
-        <div className="xl:ml-80 whitespace-nowrap ml-16 ">
+        <Navbar.Toggle className="lg:hidden " />
+        <div className="xl:ml-80 whitespace-nowrap ml-16  ">
           <Navbar.Collapse>
             <Navbar.Link
               href="#Home"
               active={activeItem === 'Home'}
               onClick={() => handleItemClick('Home')}
-              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Home' ? '' : ''}`}
+              className={`md:text-xl xl:text-xl mr-10 font-semibold dark:text-white ${activeItem === 'Home' ? '' : ''}`}
             >
               Home
             </Navbar.Link>
@@ -38,7 +39,7 @@ const Header = () => {
               href="#Objetivos"
               active={activeItem === 'Objetivos'}
               onClick={() => handleItemClick('Objetivos')}
-              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Objetivos' ? '' : ''}`}
+              className={`md:text-xl xl:text-xl mr-10 font-semibold dark:text-white ${activeItem === 'Objetivos' ? '' : ''}`}
             >
               Objetivos
             </Navbar.Link>
@@ -46,10 +47,11 @@ const Header = () => {
               href="#Que_Ofrecemos"
               active={activeItem === 'Que_Ofrecemos'}
               onClick={() => handleItemClick('Que_Ofrecemos')}
-              className={`md:text-xl xl:text-xl mr-10 ${activeItem === 'Que_Ofrecemos' ? '' : ''}`}
+              className={`md:text-xl xl:text-xl mr-10 font-semibold dark:text-white ${activeItem === 'Que_Ofrecemos' ? '' : ''}`}
             >
               ¿Qué Ofrecemos?
             </Navbar.Link>
+            <DarkMod/>
           </Navbar.Collapse>
         </div>
       </div>

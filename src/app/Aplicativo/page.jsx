@@ -1,12 +1,9 @@
 import Header from "./Components/Header/Navbar";
 import Contenido from "./Components/Contenido/Contenido";
 import Imagenes from "./Components/Contenido/Imagenes"
-
-import DarkMod from "./Components/Home/DarkMode";
-
 const page = () => {
     return (
-        <div>
+        <div className=" dark:bg-black">
       <Header />
       <Contenido />
       <Imagenes />

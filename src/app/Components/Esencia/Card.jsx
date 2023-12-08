@@ -4,9 +4,9 @@ const Card = ({ icon, title, number, description }) => {
   return (
     <div className="w-full  mb-4 px-2">
       <div className="card-O ">
-        <div className="content-O">
+        <div className="content-Ob">
           <div className="back-O">
-            <div className="back-content-O text-lg">
+            <div className="back-content-Ob text-lg">
               <div>
                 {icon}
               </div>
