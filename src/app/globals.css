@@ -161,9 +161,9 @@ header .navbar a {
   color: #ededed;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 35px;
+  margin-left: 40px;
   transition: all .55s ease;
-  border-bottom: 2px solid transparent;
+  border-bottom: 10px solid transparent;
 }
 .navbar a:hover,
 .navbar a.active{
@@ -211,6 +211,9 @@ header .navbar a {
     text-decoration: none;
     transition: all 0.3s ease;
 }
+.text {
+color:  rgb(9, 56, 175) ;
+}
 .content .textBox a:hover{
     background: green;
     color: #fff;
@@ -218,9 +221,9 @@ header .navbar a {
 }
 .content .imgBox{
     max-width: 500px;
-    width: 600px;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding-right: 35px;
     margin-top: 42px;
 }
@@ -230,10 +233,10 @@ header .navbar a {
     max-width: 430px;
     max-height: 570px;
     position: absolute;
-    transform: translate(1.2em, 28%);
-    left: 68%;
+    transform: translate(-88%, 22%);
+    left: 88%;
+    margin-left: center;
     overflow: hidden;
-    display: flex;
 
 }
 
@@ -246,7 +249,7 @@ header .navbar a {
     transform: translateX(-50%);
     display: flex;
     align-items: center; 
-    justify-content: center;
+    justify-content: center
     
     
 }
@@ -306,7 +309,7 @@ header .navbar a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: 100%;
+  height: 120%;
   background-color: #2b9dfa;
   clip-path: circle(670px at right 820px);
 }
@@ -320,16 +323,12 @@ header .navbar a {
   }
 
   .content .imgBox {
-    margin-top: -1000px; /* Ajusta según sea necesario */
-    top: 1000%;
-
-
-
+    margin-top: -1000px; 
   }
 
+
   .thumb li img {
-    max-width: 70px; /* Puedes ajustar el tamaño de las miniaturas para pantallas más grandes */
-    justify-content: center;
-    align-items: center;
+    max-width: 72px; /* Puedes ajustar el tamaño de las miniaturas para pantallas más grandes */
+
   }
 }

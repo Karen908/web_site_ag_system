@@ -6,7 +6,7 @@ function Info_Equipo() {
           <div  className="flex flex-wrap justify-center">
       <ProfileCards
         imgSrc="/img/Pagina_web/Equipo/jerry.png"
-        name="Ivan Sepulveda"
+        name="Iván Sepúlveda"
         role="Analista-desarollador"
         portfolioLink=""
         githubLink="https://github.com/sepu2"
@@ -14,7 +14,7 @@ function Info_Equipo() {
       />
       <ProfileCards
         imgSrc="/img/Pagina_web/Equipo/joseph.png"
-        name="Joseph Lopez"
+        name="Joseph López"
         role="CEO-Director ejecutivo"
         portfolioLink=""
         githubLink="https://github.com/ElGonDo"
@@ -22,7 +22,7 @@ function Info_Equipo() {
       />
       <ProfileCards
         imgSrc="/img/Pagina_web/Equipo/KarenP.jpeg"
-        name="Karen Perez"
+        name="Karen Pérez"
         role="Gerente de producto"
         portfolioLink=""
         githubLink="https://github.com/Karen908"

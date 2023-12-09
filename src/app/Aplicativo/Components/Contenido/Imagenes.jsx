@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
-import { FaFacebookF } from "react-icons/fa6";import { FaInstagram } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 
 
@@ -44,7 +45,7 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
       <div>
           <div class="content">
         <div className="imgBox">
-          <img src={currentImage} className="CnMecab"  />
+          <img src={currentImage} className="CnMecab mt-10 justify-center"  />
         </div>
         </div>
     
