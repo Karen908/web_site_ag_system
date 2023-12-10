@@ -17,10 +17,10 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   const SocialIcons = () => {
     return (
       <ul className="sci mt-10 ">
-        <li href="#">
+        <li href="https://www.facebook.com/?locale=es_LA.com">
        <FaFacebookF />
         </li>
-        <li href="#">
+        <li href="https://www.instagram.com/">
          <FaInstagram />
         </li>
         <li href="#">
