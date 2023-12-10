@@ -8,7 +8,6 @@ const Page1 = () => {
       <Header />
       <Contenido />
       <Imagenes />
-
         </div>
     );
 };

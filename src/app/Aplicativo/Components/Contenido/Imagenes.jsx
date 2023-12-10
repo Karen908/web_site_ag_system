@@ -45,7 +45,7 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
       <div>
           <div class="content">
         <div className="imgBox">
-          <img src={currentImage} className="CnMecab mt-10 justify-center"  />
+          <img src={currentImage} className="CnMecab justify-center mt-36"  />
         </div>
         </div>
     
