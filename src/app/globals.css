@@ -365,12 +365,7 @@ color:  rgb(9, 56, 175) ;
 .sci li:hover{
     background-color: red;
 }
-.sci li a{
-    display: inline-block;
-    margin: 10px 0;
-    transform: scale(0.6);
-    filter: invert(1);
-}
+
 
 .circle{
   position: absolute;
