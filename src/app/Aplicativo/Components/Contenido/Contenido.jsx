@@ -25,7 +25,7 @@ const Contenido = () => {
           ser: géneros cinematográficos, géneros literarios, productoras,
           directores y diferentes temas relacionados.
         </p>
-        <a href="img/app-release.apk" className="descarga">Descargar</a>  
+        <a href="img/Cn_apk/app-release.apk" className="descarga">Descargar</a>  
     
       </div>
     </div>
