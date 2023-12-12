@@ -11,14 +11,14 @@ const Ofrecemos = () => {
         <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
-      <section class="ofrecemos section2 -mt-56" id="Que_Ofrecemos">
-        <h1 class="heading font-bold"> <span>CN </span> Te Ofrece </h1>
-        <div class="row">
-            <div class="image">
-                <img class="pantalla" src="/img/Cn_mecab/Aplicacion/cnPantalla.png"/> 
+      <section className="ofrecemos section2 -mt-56" id="Que_Ofrecemos">
+        <h1 className="heading font-bold"> <span>CN </span> Te Ofrece </h1>
+        <div className="row">
+            <div className="image">
+                <img className="pantalla" src="/img/Cn_mecab/Aplicacion/cnPantalla.png"/> 
 
             </div>
-            <div class="contento font-bold">
+            <div className="contento font-bold">
                 <h3 className="text-center">Todo Esto Para Ti </h3>
                 <p>
                     Contribuir a los usuarios cinéfilos la exploración, 
@@ -32,7 +32,7 @@ const Ofrecemos = () => {
                          del cine.</p>
             </div>
         </div>
-        <a href="#Objetivos" class="btn"><MdOutlineKeyboardDoubleArrowUp/></a>
+        <a href="#Objetivos" className="btn"><MdOutlineKeyboardDoubleArrowUp/></a>
     </section>
       </>
 
