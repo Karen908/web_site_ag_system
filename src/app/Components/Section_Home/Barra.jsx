@@ -1,11 +1,8 @@
+'use client';
 import React from "react";
 import DarkMod from "./DarkMod";
-import {
-  Navbar,
-  Collapse,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
+import {Navbar, Collapse, Typography, IconButton} 
+from "@material-tailwind/react";
  
 export function Barra() {
   const [openNav, setOpenNav] = React.useState(false);

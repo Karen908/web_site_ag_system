@@ -14,11 +14,11 @@ const Header = () => {
   };
     return (
 
-      <Navbar expand='lg' className='lg:pr-24  flex items-center fixed-top navbar navbar a:hover navbar a.active'>
+      <Navbar expand='lg' className='lg:pr-30  flex items-center fixed-top navbar navbar a:hover navbar a.active'>
       <div className="flex items-center ">
         <Navbar.Brand className='ml-10 lg:ml-20'>
           <img
-            src='/img/Cn_mecab/Logos/LargoCNMecab.jpeg'
+            src='/img/Cn_mecab/Logos/LargoCNMecab.png'
             className="h-24 lg:h-24 lg:w-auto object-contain lg:ml-5 lg:mr-72"
             alt="Logo"
           />

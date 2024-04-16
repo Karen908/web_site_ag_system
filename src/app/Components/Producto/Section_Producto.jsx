@@ -18,8 +18,8 @@ function SectionProducto() {
       <div className='loader-container h-72 w-72 mt-6'>
         <div className='loader'></div>
         <div className='contentW relative w-60 h-60 border-8 border-blue-500 rounded-full flex items-center justify-center'>
-          <a href="indexCN.html">
-            <img src="/img/Pagina_web/Logos_Empresa/Cn_azul.png" alt="Producto" />
+          <a href="Aplicativo">
+            <img src="/img/Pagina_web/Logos_Empresa/Cn_azul.png" alt="Aplicativo" />
           </a>
         </div>
       </div>

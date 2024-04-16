@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
-import { FaFacebookF } from "react-icons/fa6";import { FaInstagram } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 
 
@@ -15,15 +16,23 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   
   const SocialIcons = () => {
     return (
-      <ul className="sci mt-10 ml">
-        <li href="#">
+      <ul className="sci mt-10 ">
+        <li> 
+        <a href="https://www.facebook.com/?locale=es_LA.com">
        <FaFacebookF />
+       </a>
         </li>
-        <li href="#">
+
+        <li>
+          <a href="https://www.instagram.com/ag_sysytem_information/">
          <FaInstagram />
+         </a>
         </li>
-        <li href="#">
+
+        <li>
+        <a href="https://twitter.com/ag_system_info">
         <FaXTwitter/>
+        </a>
         </li>
       </ul>
     );
@@ -42,14 +51,14 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
   
     return (
       <div>
-          <div class="content">
+          <div className="content">
         <div className="imgBox">
-          <img src={currentImage} className="CnMecab"  />
+          <img src={currentImage} className="CnMecab justify-center mt-36"  />
         </div>
         </div>
     
         <ul className="thumb">
-          <SliderThumbnail imgSrc="public/img/Cn_mecab/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
           <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen1.jpg" onClickHandler={imgSlider} className="imagenes" />
           <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen2.jpg" onClickHandler={imgSlider} className="imagenes" />
           <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen3.jpg" onClickHandler={imgSlider} className="imagenes" />
