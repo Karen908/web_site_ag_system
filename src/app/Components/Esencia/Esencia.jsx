@@ -25,15 +25,7 @@ function Esencia() {
             </svg>}
               title="Habilidades"
               number={4}
-              description={
-      <pre className="">
-        {`1)Desarrollamos  para Android con Dart.
-2)Frameworks como Next.js y React Native.
-3)Dominio de  JavaScript y PHP.
-4)Frameworks para web Css= Tailwind CSS.`}
-      </pre>
-      
-    }
+              description="1)Desarrollamos para Android con Dart. 2)Frameworks como Next.js y React Native. 3)Dominio de  JavaScript y PHP. 4)Frameworks para web Css= Tailwind CSS."
   />
           </div>
           <div className="w-full  mb-4 mr-4">
