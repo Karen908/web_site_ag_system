@@ -59,9 +59,9 @@ const SliderThumbnail = ({ imgSrc, onClickHandler }) => {
     
         <ul className="thumb">
           <SliderThumbnail imgSrc="/img/Cn_mecab/Logos/LogoCN.png" onClickHandler={imgSlider} className="imagenes" />
-          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen1.jpg" onClickHandler={imgSlider} className="imagenes" />
-          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen2.jpg" onClickHandler={imgSlider} className="imagenes" />
-          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen3.jpg" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen1.jpeg" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen2.jpeg" onClickHandler={imgSlider} className="imagenes" />
+          <SliderThumbnail imgSrc="/img/Cn_mecab/Aplicacion/imagen3.jpeg" onClickHandler={imgSlider} className="imagenes" />
         </ul>
        
         <SocialIcons />

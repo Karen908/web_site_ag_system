@@ -19,6 +19,24 @@ function Esencia() {
             />
           </div>
           <div className="w-full  mb-4 mr-4">
+          <Card 
+              icon={<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-arrows-expand-vertical  w-10 h-10 text-white" viewBox="0 0 16 16">
+              <path d="M8 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L1.707 7.5H5.5a.5.5 0 0 1 0 1H1.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2ZM10 8a.5.5 0 0 1 .5-.5h3.793l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L14.293 8.5H10.5A.5.5 0 0 1 10 8"/>
+            </svg>}
+              title="Habilidades"
+              number={4}
+              description={
+      <pre className="">
+        {`1)Desarrollamos  para Android con Dart.
+2)Frameworks como Next.js y React Native.
+3)Dominio de  JavaScript y PHP.
+4)Frameworks para web Css= Tailwind CSS.`}
+      </pre>
+      
+    }
+  />
+          </div>
+          <div className="w-full  mb-4 mr-4">
           <Card
               icon={<svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" className="bi bi-people-fill w-10 h-10 text-white" viewBox="0 0 16 16">
               <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
