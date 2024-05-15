@@ -14,10 +14,10 @@ const Card = ({ icon, title, number, description }) => {
             </div>
           </div>
           <div className="front">
-            <h1 className="text-white font-bold bg-blue-500 p-2 text-sm md:text-base text-center lg:text-lg xl:text-lg">
+            <h1 className="text-white font-bold bg-blue-600 p-2 text-sm md:text-base text-center lg:text-lg xl:text-lg">
               {number}. {title}
             </h1>
-            <p className="text-sm md:text-base  lg:text-lg xl:text-lg p-4">
+            <p className="text-sm md:text-base lg:text-base xl:text-base p-4">
               {description}
             </p>
           </div>

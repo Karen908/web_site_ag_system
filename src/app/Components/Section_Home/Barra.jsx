@@ -66,12 +66,21 @@ export function Barra() {
  
   return (
     <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]  absolute   ">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-6 py-2 lg:px-8 lg:py-4 dark:bg-slate-400 lg:bg-transparent lg:border-transparent lg:shadow-none mt-4">
+      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-4 lg:py-1 dark:bg-slate-700   lg:bg-none lg:border-transparent lg:shadow-none mt-4">
         <div className="flex items-center justify-between text-blue-gray-900 ">
-        <a className="w-48 md:w-56 md:ml-20 lg:w-72 xl:w-80 mt-8 ml-10 object-contain">
-          <img src="/img/Pagina_web/Logos_Empresa/logo.png" data-src="/img/logo.png" alt="" />
+        <a className="w-48 md:w-56 md:ml-20 lg:w-72 xl:w-80 mt-8 ml-10 object-contain dark:shadow-lg ">
+          <img
+              className="dark:hidden"
+              src="/img/Logos_Empresa/logo.png"
+              alt="Logo en modo claro"
+            />
+            <img
+              className="hidden dark:block mr-8 object-contain"
+              src="/img/Logos_Empresa/logoBlanco.png"
+              alt="Logo en modo oscuro"
+            />
         </a>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 ">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1 mt-6 lg:mr-12 lg:mt-2">
               <DarkMod/>
@@ -82,7 +91,7 @@ export function Barra() {
               ripple={false}
               onClick={() => setOpenNav(!openNav)}
             >
-              {openNav ? (
+              {openNav  ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
