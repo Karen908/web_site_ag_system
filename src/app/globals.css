@@ -273,6 +273,9 @@ header .navbar a {
     margin-top: 10px;
     padding: 10px 20px;
     background: #121f47;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -369,18 +372,18 @@ color:  rgb(9, 56, 175) ;
 
 .circle{
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: 120%;
-  background-color: #2b9dfa;
+  height: 110%;
+  background-color: #007ee6;
   clip-path: circle(670px at right 820px);
   
 }
 
 @media screen and (min-width: 768px) {
-  /* Aplica estilos específicos para pantallas más grandes (ajusta según sea necesario) */
+  /* Aplica estilos específicos para pantallas más grandes*/
   .content {
     flex-direction: row;
     justify-content: space-between;
@@ -389,10 +392,10 @@ color:  rgb(9, 56, 175) ;
 
 
 .section1 {
-  padding: 15rem 0%;
+  padding: 13rem 0%;
 }
 .section2 {
-  padding: 0rem 0%;
+  padding: 5rem 0%;
 }
 
   .content .imgBox {
@@ -401,7 +404,7 @@ color:  rgb(9, 56, 175) ;
   }
 
   .thumb li img {
-    max-width: 72px; /* Puedes ajustar el tamaño de las miniaturas para pantallas más grandes */
+    max-width: 72px; /* Puede ajustar el tamaño de las miniaturas para pantallas más grandes */
   }
   .objetivo .row {
     flex-wrap: none;
@@ -444,8 +447,6 @@ color:  rgb(9, 56, 175) ;
 .objetivo .row{
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: #cc0e00; /*posibles colores para esto #333 #178ef2 */
   flex-wrap: wrap;
   border-radius: 40px;
   max-width: 92%;
@@ -569,5 +570,117 @@ color:  rgb(9, 56, 175) ;
 }
 .btn:hover{
   letter-spacing: .2rem;
+}
+
+/*vista nueva objetivo */
+
+:root {
+  --background-color: rgb(250, 245, 235);
+ 
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 100%;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-color);
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+
+.two-parts {
+  height: 100%;
+}
+
+.two-parts .two-parts-container {
+  max-width: 90%;
+}
+
+.two-parts .part-1 {
+  flex: 1.5;
+}
+
+.part-1 .width-container {
+  width: 60%;
+}
+
+.part-1 h3 {
+  font-size: 50px;
+  line-height:50px;
+  font-weight: lighter;
+}
+
+.part-1 p {
+  font-size: 16px;
+  line-height:25px;
+  margin-bottom: 30px;
+}
+
+.part-1 .width-container a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--primary-color);
+  text-underline-offset:  4px;
+  margin-top: 30px;
+  color: black;
+  font-size: 16px;
+}
+
+.two-parts .part-2 {
+  flex: 1;
+  align-items: start;
+}
+
+.colored {
+  background-color: var(--colored-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.colored .two-parts .part-2 {
+  width: 100%;
+
+}
+
+.colored .link { 
+  color: white !important;
+}
+
+.reverse-row {
+  flex-direction: row-reverse;
+
+}
+
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.align-top {
+  z-index: 2;
+  position:relative;
+  width: 20px;
+  height: 100px;
+}
+
+.size-s {
+  width: 270px;
+  height: 470px;
+  margin-right: 16px;
 }
 
