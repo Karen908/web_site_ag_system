@@ -1,5 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
+import Link from 'next/link';
 
 const Footer1 = () => {
   const scrollToTop = () => {
@@ -27,10 +28,18 @@ const Footer1 = () => {
   }, []);
 
   return (
-    <footer className="flex justify-center mt-2 p-6 bg-zinc-100 font-medium text-base dark:bg-black dark:text-white">
-      <p>&copy; CN MECAB 2023 | J.M.K.S.A</p>
+    <footer className="flex justify-center font-bold mt-2 p-6 bg-zinc-100  dark:bg-black dark:text-white">
+      <div>
+      <p className='text-xl'>&copy; CN MECAB 2023 | J.M.K.S.A</p>
+      <div>
+        <Link className='ml-4 font-semibold text-base hover:text-blue-600' href="Terminos_condiciones">Términos y condiciones</Link>
+      </div>
+      <div>
+        <Link className='ml-4 font-semibold text-base hover:text-blue-600' href="Politicas_privacidad">Politicas de privacidad </Link>
+      </div>
+    </div>
       <div
-        className="flex justify-center ml-10 w-10 h-10 pt-1 bg-blue-600 rounded-md overflow-hidden"
+        className="flex justify-center mt-2 ml-10 w-10 h-10 pt-1 bg-blue-600 rounded-md overflow-hidden"
         onClick={scrollToTop}
       >
         <svg
