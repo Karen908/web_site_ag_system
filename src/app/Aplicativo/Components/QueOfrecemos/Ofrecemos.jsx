@@ -14,7 +14,7 @@ const Ofrecemos = () => {
       <section className="ofrecemos section2 -mt-56" id="Que_Ofrecemos">
             <div class="text-section flex column">
                 <img src="/img/Cn_mecab/Aplicacion/pantalla1.png" alt=""/>
-                <p class="">Tú Opinión nos impora!!
+                <p class="">Tú opinión nos importa!!
                     Estamos trabajando en una proxima sección de comentarios
                     ¡¡ MUY PRONTO!!
                 </p>
