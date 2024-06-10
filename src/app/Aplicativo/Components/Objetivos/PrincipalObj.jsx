@@ -5,6 +5,7 @@ const Page2 = () => {
     return (
         <div className=" dark:bg-black">
             <Objetivo />
+
         </div>
 
 );
