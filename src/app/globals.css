@@ -661,10 +661,9 @@ color:  rgb(9, 56, 175) ;
    
   }
 
-  .tabs-custom {
-    max-width: 85%;
+  .add-item-custom {
+   max-width: 75%;
   }
-
   
   .part-1 .width-container {
     width: 100%;
