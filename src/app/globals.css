@@ -660,22 +660,15 @@ color:  rgb(9, 56, 175) ;
     margin-bottom: 1rem;
    
   }
-
   .window1 {
-   max-width: 93%;
-  }
-
-  .nav1 {
- max-width: 70%;
-  }
-  
-  .tabs-custom {
-    max-width: 100%;
+    flex-wrap: wrap;
+    position: static;
   }
   
  
   .add-item-custom{
-    max-width: 70%;
+    max-width: 80%;
+    margin-left: -1rem;
   }
   .part-1 .width-container {
     width: 100%;
