@@ -12,8 +12,12 @@
     "@material-tailwind/react": "^2.1.5",
     "flowbite": "^2.0.0",
     "flowbite-react": "^0.6.4",
+<<<<<<< HEAD
     "framer-motion": "^11.2.10",
     "next": "^14.2.3",
+=======
+    "next": "^14.1.1",
+>>>>>>> 0d550fbd139d0848c0c539be29c7ba7dccea6c1b
     "react": "^18",
     "react-dom": "^18",
     "react-helmet": "^6.1.0",
