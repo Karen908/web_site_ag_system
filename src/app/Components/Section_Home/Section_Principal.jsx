@@ -45,7 +45,7 @@ function Section_Principal() {
   </div>
 
   {/* Contenedor de imágenes */}
-  <div className='Logo  pt-44 sm:pt-20 sm:w-96 w-72 md:mb-72 xl:mb-0 pr-10  md:mt-96 lg:mt-0  md:pt-0 lg:pt-0 xl:pt-0 md:pr-0 lg:pr-0 xl:pr-0 md:w-full lg:w-98 lg:mr-28 lg:mb-10 object-contain flex justify-end items-start'>
+  <div className='Logo ml-24 pt-44 sm:pt-20 sm:w-96 w-72 md:mb-72 xl:mb-0 pr-10  md:mt-96 lg:mt-0  md:pt-0 lg:pt-0 xl:pt-0 md:pr-0 lg:pr-0 xl:pr-0 md:w-full lg:w-98 lg:mr-28 lg:mb-10 object-contain flex justify-end items-start'>
   <div className="hidden md:block w-96 mt-20 "> 
   <Image
     src="/img/Logos_Empresa/AGBlanco.png"
