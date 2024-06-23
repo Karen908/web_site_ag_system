@@ -24,7 +24,7 @@ const Objetivo = () => {
                                     preferencias en cine, televisión, literatura y animes, creando una
                                     comunidad enfocada en el mundo del cine.
                                 </p>
-                                <a href="" className="link">Learn more</a>
+                                
                             </div>
                         </div>
                         <div className="part-2 flex">
@@ -111,8 +111,8 @@ const Objetivo = () => {
                         <div className="part-2 flex">
                             <div className="width-container flex center">
                                 <img
-                                    className="size-s"
-                                    src="/img/Cn_mecab/Aplicacion/ferxxo.png"
+                                    className="size-s img2"
+                                    src="/img/Cn_mecab/Aplicacion/instalar.png"
                                     alt="Description of image"
                                 />
                             </div>
