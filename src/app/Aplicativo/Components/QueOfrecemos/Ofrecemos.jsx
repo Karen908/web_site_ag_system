@@ -29,9 +29,10 @@ const Ofrecemos = () => {
       <section className="ofrecemos section2" id="Que_Ofrecemos">
             <div class="text-section flex column">
                 <img src="/img/Cn_mecab/Aplicacion/fondocm.png" alt=""/>
-                <h3 class="text-cm">Tú opinión nos importa!!
-                    Estamos trabajando en una proxima sección de comentarios
-                    ¡¡ MUY PRONTO!!
+                <h3 class="text-cm text-black dark:text-white">Tú opinión nos importa!!
+                    Dejanos tus comentarios, inquietudes, dudas y se libre
+                    de opinar en CN ;)
+                    
                 </h3>
                 <div>
             <Burbuja toggleComments={toggleComments} />

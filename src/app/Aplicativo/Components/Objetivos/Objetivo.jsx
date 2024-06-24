@@ -13,7 +13,7 @@ const Objetivo = () => {
     const slides = [
         {
             content: (
-                <div className="two-parts flex center">
+                <div className="two-parts flex center text-black dark:text-white">
                     <div className="two-parts-container flex center">
                         <div className="part-1 flex center">
                             <div className="width-container center mr-4">
@@ -24,7 +24,7 @@ const Objetivo = () => {
                                     preferencias en cine, televisión, literatura y animes, creando una
                                     comunidad enfocada en el mundo del cine.
                                 </p>
-                                
+
                             </div>
                         </div>
                         <div className="part-2 flex">
@@ -51,7 +51,7 @@ const Objetivo = () => {
                 <div className="two-parts flex center" >
                     <div className="two-parts-container flex center">
                         <div className="part-1 flex center">
-                            <div className="width-container center mr-4">
+                            <div className="width-container center mr-4 text-black dark:text-white">
                                 <h3>Crea, Reseña, Comparte y Disfruta de CN_Mecab </h3>
                                 <p>
                                     Somos una red social enfocada en el Cine, Multimedia, Entretenimiento, Comics
@@ -81,15 +81,15 @@ const Objetivo = () => {
         },
         {
             content: (
-                <div className="two-parts flex center">
+                <div className="two-parts flex center  text-black dark:text-white">
                     <div className="two-parts-container flex center">
                         <div className="part-1 flex center">
                             <div className="width-container center mr-4">
-                                <h3>¡Ya puedes descargar la única red social para 
+                                <h3>¡Ya puedes descargar la única red social para
                                     cinéfilos!
                                 </h3>
                                 <p>
-                                    Puedes descargar nuestra App mediante Google Play o directamente 
+                                    Puedes descargar nuestra App mediante Google Play o directamente
                                     oprimiendo el botón de descarga azul o directamente el verde.
                                 </p>
 
@@ -99,9 +99,9 @@ const Objetivo = () => {
                                         alt="Disponible en Google Play"
                                         className="image link"
                                     />
-
-                                 <DownloadButton />
                                 </Link>
+                                <DownloadButton />
+
 
 
 
@@ -196,7 +196,7 @@ const Objetivo = () => {
                                 onClick={() => goToSlide(slideIndex)}
                                 className="botones text-2xl cursor-pointer ml-2 -mt-20"
                             >
-                                <div className="p-2">
+                                <div className="p-2 text-black dark:text-white">
                                     <RxDotFilled />
                                 </div>
                             </div>

@@ -49,7 +49,7 @@ const Header = () => {
               onClick={() => handleItemClick('Que_Ofrecemos')}
               className={`md:text-xl xl:text-xl mr-10 font-semibold dark:text-white ${activeItem === 'Que_Ofrecemos' ? '' : ''}`}
             >
-              ¿Qué Ofrecemos?
+              Comentarios
             </Navbar.Link>
             <DarkMod/>
           </Navbar.Collapse>
