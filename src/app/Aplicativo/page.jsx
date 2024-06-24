@@ -10,9 +10,6 @@ const page = () => {
       <Page2 />
       <Page3 />
       <Footer1 />
-
-
-
     </div>
     );
 };

@@ -50,7 +50,7 @@ function Esencia() {
                 </svg>
               }
               title="Innovación"
-              number={4}
+              number={3}
               description="Constantemente exploramos nuevas tecnologías, metodologías y enfoques creativos para llevar las soluciones de software a un nivel superior. Ofreciendo productos y servicios que sorprendan y deleiten a nuestros clientes."
             />
           </div>
@@ -62,7 +62,7 @@ function Esencia() {
                 </svg>
               }
               title="Adaptabilidad"
-              number={5}
+              number={4}
               description="Nos comprometemos a adaptarnos ágilmente a las necesidades cambiantes del mercado. Nuestra flexibilidad nos permite ofrecer soluciones personalizadas y escalables que se ajusten perfectamente a cualquier entorno empresarial."
             />
           </div>

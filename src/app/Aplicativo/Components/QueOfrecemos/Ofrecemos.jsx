@@ -10,7 +10,15 @@ const Ofrecemos = () => {
 
     const toggleComments = () => {
         setAreCommentsVisible(!areCommentsVisible);
+        
     };
+
+
+    const handleCommentsToggle = () => {
+        setAreCommentsVisible(!areCommentsVisible);
+
+    };
+
 
     
     return (
@@ -21,13 +29,14 @@ const Ofrecemos = () => {
       <section className="ofrecemos section2" id="Que_Ofrecemos">
             <div class="text-section flex column">
                 <img src="/img/Cn_mecab/Aplicacion/fondocm.png" alt=""/>
-                <p class="text-cm">Tú opinión nos importa!!
+                <h3 class="text-cm">Tú opinión nos importa!!
                     Estamos trabajando en una proxima sección de comentarios
                     ¡¡ MUY PRONTO!!
-                </p>
+                </h3>
                 <div>
             <Burbuja toggleComments={toggleComments} />
-            <Cm isVisible={areCommentsVisible} />
+            <Cm isVisible={areCommentsVisible} onClose={handleCommentsToggle}/>
+       
                 </div>
                 <img src="/img/Cn_mecab/Aplicacion/fondocm.png" alt=""/>
             </div>
